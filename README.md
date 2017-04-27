@@ -1,6 +1,6 @@
 # npmtest-redux-react-router
 
-#### test coverage for  [redux-react-router (v0.4.0)](https://github.com/acdlite/redux-react-router#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-react-router.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-react-router) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-react-router.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-react-router)
+#### basic test coverage for  [redux-react-router (v0.4.0)](https://github.com/acdlite/redux-react-router#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-react-router.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-react-router) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-react-router.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-react-router)
 
 #### Redux bindings for React Router — keep your router state inside your Redux Store.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-redux-react-router/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-redux-react-router/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-redux-react-router/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-redux-react-router/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-react-router/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-react-router/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-redux-react-router/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-redux-react-router/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-react-router/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-react-router/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-redux-react-router/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-redux-react-router/build/coverage.html/index.html)
 
@@ -95,7 +95,8 @@
         "prepublish": "make clean build",
         "test": "make test"
     },
-    "version": "0.4.0"
+    "version": "0.4.0",
+    "bin": {}
 }
 ```
 
